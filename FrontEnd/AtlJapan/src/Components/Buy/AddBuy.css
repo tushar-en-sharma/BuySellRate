@@ -1,0 +1,180 @@
+.AddText {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    padding-left: 10px;   
+}
+
+/* Updated CSS for AddBuySellRate component with responsive styles */
+
+.error-message {
+    color: red;
+  }
+  
+  .required::after {
+    content: ' *';
+    color: red;
+  }
+  
+  .abc{
+    padding-right: 10px;
+  }
+  
+  .AddBuySellRate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f7fb;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  select,
+  input[type="text"],
+  input[type="date"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  
+  .BuyRatecss {
+    padding: 20px;
+    border: 1px solid #ccc; /* Add a border for separation */
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light gray background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    margin: 20px 0; /* Add some margin to space it from other elements */
+    width: 100%;
+  }
+  
+  .BuyRatecss h4 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .BuyRatecss p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .BuyRatecss label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    margin-right: 10px;
+  }
+  
+  .BuyRatecss td {
+    padding: 10px;
+    flex: 1; /* Let each field take an equal portion of the space */
+  }
+  
+  .BuyRatecss select,
+  .BuyRatecss input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  .BuyRatecss button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 15px 30px;
+    font-size: 13px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .BuyRatecss button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 900px) {
+    .BuyRatecss h4 {
+      font-size: 18px;
+    }
+  
+    .BuyRatecss label {
+      font-size: 12px;
+    }
+  
+    .BuyRatecss select,
+    .BuyRatecss input[type="text"] {
+      padding: 10px;
+      font-size: 12px;
+    }
+  
+    .BuyRatecss button {
+      font-size: 14px;
+    }
+  }
+  
+  .BuyRatecss td {
+    padding: 10px;
+    flex: 1;
+    margin: 10px; /* Add margin to create space between fields */
+  }
+
+
+  /* Custom styles for the responsive and appealing table */
+.AddBuyRateTable {
+    margin-top: 20px; /* Adjust the top margin as needed */
+    padding-left: 20px;
+  }
+  
+  .AddBuyRateTable .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+  }
+  
+  .AddBuyRateTable .table th,
+  .AddBuyRateTable .table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .AddBuyRateTable .table thead th {
+    vertical-align: bottom;
+    border-top: 2px solid #dee2e6;
+  }
+  
+  .AddBuyRateTable .table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+  }
+  
+  .AddBuyRateTable .table .table {
+    background-color: #fff;
+  }
+  
+  /* Optional: Hover effect */
+  .AddBuyRateTable .table-hover tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Optional: Striped rows */
+  .AddBuyRateTable .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  

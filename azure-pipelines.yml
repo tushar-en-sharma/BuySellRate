@@ -1,0 +1,19 @@
+trigger:
+- main  # Change this based on your branch or trigger criteria
+
+pool:
+  vmImage: 'windows-latest'  # Use the appropriate image based on your VM
+
+jobs:
+- job: Deploy
+  displayName: 'Deploy to Azure VM'
+  steps: 
+  - task: WindowsMachineFileCopy@2
+    inputs:
+      SourcePath: '$(System.DefaultWorkingDirectory)'
+      MachineNames: '98.70.66.238'
+      AdminUserName: 'atladmin'
+      AdminPassword: 'Adminatl@12345'
+      TargetPath: 'C:\Users\atladmin\Desktop\UPLOAD1234'
+
+

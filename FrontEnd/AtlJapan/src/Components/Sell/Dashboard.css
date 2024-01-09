@@ -1,0 +1,51 @@
+.BuyDashboard {
+    text-align: center;
+    font-family: fantasy;
+}
+
+/* Table styles */
+.DashbaordTable-container {
+    margin: 20px;
+  }
+  
+  .DashbaordTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+
+  }
+  
+  /* Table header styles */
+  .DashbaordTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  /* Table row styles */
+  .DashbaordTable tr {
+    border: 1px solid #ddd;
+    max-width: fit-content;
+    max-height: fit-content;
+  }
+  
+  /* Alternating row colors for better readability */
+  .DashbaordTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Table cell styles */
+  .DashbaordTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Hover effect for better user interaction */
+  .DashbaordTable tr:hover {
+    background-color: #f0f0f0;
+  }
+  

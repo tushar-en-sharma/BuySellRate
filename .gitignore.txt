@@ -1,0 +1,4 @@
+# ignore ALL files in ANY directory named node_modules
+node_modules/
+Backend/LoginApi/Program.cs
+FrontEnd/AtlJapan/.env
